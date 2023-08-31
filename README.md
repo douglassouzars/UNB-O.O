@@ -1,13 +1,13 @@
 # UNB-O.O
 
-Neste repositório contendo todos os projetos desenvolvidos na disciplina, como:\n\n
+Neste repositório contendo todos os projetos desenvolvidos na disciplina, como:
 
-Projeto_1\n
-Projeto_2\n
-Projeto_3\n
-Também haverá as pastas referentes a entregas dos projetos:\n\n
+Projeto_1<br>
+Projeto_2
+Projeto_3
+Também haverá as pastas referentes a entregas dos projetos:
 
-Entrega_1\n
-Entrega_2\n
-Entrega_3\n
+Entrega_1
+Entrega_2
+Entrega_3
 Desta forma, é possível verificar projetos do básico ao Avançado!!
