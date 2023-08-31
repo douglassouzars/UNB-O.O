@@ -7,9 +7,9 @@ Projeto_2<br>
 Projeto_3<br>
 </p>
 Também haverá as pastas referentes a entregas dos projetos:<br>
-<p>
+<p><br>
 Entrega_1<br>
 Entrega_2<br>
 Entrega_3<br>
-</p>
+</p><br>
 Desta forma, é possível verificar projetos do básico ao Avançado!!
