@@ -1,0 +1,9 @@
+"""Pseudocodigo"""
+
+
+class geo:
+- Atributos:
+    x
+    y
+
+-Variaveis
