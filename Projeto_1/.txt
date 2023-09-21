@@ -1,9 +1,64 @@
 """Pseudocodigo"""
 
 
-class geo:
-- Atributos:
-    x
-    y
+''''''''''''''''''''''''''''''''''
+Classe Ponto:
+-Variaveis:
+    * X
+    * y
 
--Variaveis
+-Funcoes:
+    * Construtor(x, y):
+    * PegarX():
+    * PegarY():
+
+
+
+Classe Forma:
+-Funcao:
+    * Area():
+    * Perimetro():
+
+
+
+Classe Retangulo(Forma):
+-Variaveis:
+    * largura
+    * altura
+-Funcao:
+    * Construtor(largura, altura):
+    * Area():
+
+
+
+Classe Circulo(Forma):
+-Variaveis:
+    * centro
+    * raio
+-Funcao:
+    * Construtor(centro, raio):
+    * Area():
+
+
+
+Classe Triangulo(Forma):
+-Variaveis:
+    * centro
+    * raio
+-Funcao:
+    * Construtor(centro, raio):
+    * Area():
+
+
+
+-Função principal:
+    Criar um ponto P1 com coordenadas (2, 3)
+    Criar um ponto P2 com coordenadas (5, 7)
+    Criar um retângulo R1 com canto superior esquerdo em P1, largura 4 e altura 6
+    Criar um círculo C1 com centro em P2 e raio 3
+
+    ÁreaRetangulo = R1.CalcularArea()
+    ÁreaCirculo = C1.CalcularArea()
+
+    Exibir "Área do Retângulo R1:", ÁreaRetangulo
+    Exibir "Área do Círculo C1:", ÁreaCirculo
