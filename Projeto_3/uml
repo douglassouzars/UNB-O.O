@@ -1,0 +1,4 @@
+Deseja-se construir um universo para realizar corridas, denominado ROAD RASH, contendo vários motoqueiro. Todos, realizarão suas
+ atividades dentro de uma pista de corrida, composta por um interações gráficas. Todos corredores começam juntos e tem como 
+ objetivo definir o ganhador que percorrer todo percursso primeiro. Para impedir os adversarios o motoqueiro pode tentar derrubar 
+ os adversarios. Deve tomar cuidado com os obstaculos e com o motoqueiro policial.
