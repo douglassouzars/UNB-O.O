@@ -1,4 +1,95 @@
-Deseja-se construir um universo para realizar corridas, denominado ROAD RASH, contendo vários motoqueiro. Todos, realizarão suas
- atividades dentro de uma pista de corrida, composta por um interações gráficas. Todos corredores começam juntos e tem como 
- objetivo definir o ganhador que percorrer todo percursso primeiro. Para impedir os adversarios o motoqueiro pode tentar derrubar 
- os adversarios. Deve tomar cuidado com os obstaculos e com o motoqueiro policial.
+ROAD RASH
+
+
+Requisitos:
+
+O universo:
+Em um universo 2D, um jogador realizar uma corrida com a sua motocicleta em uma pista de mao dupla (sentido de ir e vir em 1 pista).
+O universo apresenta as motos e o botão de menu, o qual tem as opçoes para o jogador.
+O universo passa-se em uma avenida de uma cidade, que representa o cenário.
+Possui neste cenario diversos obstaculos como carros indo e vindo, bem como, placas de sinalização de curvas indicando para qual lado existe uma curva, predios ou plantas que podem causar acidentes ao motoqueiro localizados fora da pista, bem como, policial motoqueiro que tenta prender motociclistas em alta velocidade.
+
+O jogador:
+O jogador possue nome, pontuação por corrida, quantidade de quedas, quantidade de jogadores derrubados. Quando se vençe uma corrida
+o jogador desbloqueia uma nova pista (cenário) e novos modelos de moto. Um novo jogador inicia suas atividades com apenas um personagem e um tipo de veiculo padrao. Se o jogador nao ficar em até 3 colocado, o proximo nivel contendo mais motos e pistas fica bloqueados. Caso vença a corrida estes novos itens são liberados. O jogador deve estar presente nas corridas, pilotando uma das motocicletas. Se sua moto sofrer um acidente, o personagem cai no chao, levanta-se e vai em direção a moto para voltar para a corrida. Neste casos, o jogador estara sujeito a ser ultrapassado por outros jogadores. O jogador podem realizar as seguintes ações: mover a moto, move os braços para dar socos, mover as pernas para dar chutes e acelerar. O jogador que percorrer todo o caminho primeiro que os demais, vençe a corrida em 1° lugar, e os demais em 2° lugar, 3° lugar ate o 20° lugar de acordo com o tempo de chegada.
+
+Motos:
+As motos são de 3 tipos: Esportiva, Custom e Scooter. As motos Esportivas possuem mais rapidez e velocidade, porem media aceleração inicial e pouca flexibilidade em curvas. As motos Custom possuem pouca rapidez e velocidade, alta aceleração inicial e media flexibilidade em curvas. As Scooter possuem media rapidez e velocidade, pouca aceleração inicial e alta flexibilidade em curvas.
+A moto é controlada pelo jogador.
+A moto com o jogador é formado por um ordenado de pontos interconectados orgarnizados de forma adequada, criando a forma da moto com o piloto
+
+Lista de substantivos e verbos:
+Substantivos:
+
+    Universo
+    2D
+    Jogador
+    Nome
+    Pontuação
+    Corrida
+    Quedas
+    Jogadores
+    Cenário
+    Obstáculos
+    Carros
+    Placas de sinalização
+    Curvas
+    Predios
+    Plantas
+    Policial motoqueiro
+    Velocidade
+    Personagem
+    Veículo
+    Nível
+    Pista
+    Modelos de moto
+    Ações
+    Braços
+    Pernas
+    Motoqueiro
+    Tempo
+    Chegada
+    Motos
+    Esportiva
+    Custom
+    Scooter
+    Rapidez
+    Velocidade
+    Aceleração
+    Flexibilidade
+    Curvas
+    Ordenado
+    Pontos
+    Forma
+
+ Verbos:
+
+    Realizar
+    Correr
+    Pilotar
+    Desbloquear
+    Iniciar
+    Ficar
+    Sofrer
+    Cair
+    Levantar
+    Mover
+    Dar socos
+    Dar chutes
+    Acelerar
+    Permanecer
+    Vençer
+    Chegar
+    Controlar   
+
+Detalhamento de requisitos e identificação de Classes:
+
+Viewers
+
+Controllers
+
+Models
+
+Diagrama de Classes
+
+Tabela de Construtores

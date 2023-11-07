@@ -1,1 +1,0 @@
-"""Objetos Geometricos em Python"""

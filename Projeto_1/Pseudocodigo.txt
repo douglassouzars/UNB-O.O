@@ -2,6 +2,7 @@
 
 
 ''''''''''''''''''''''''''''''''''
+# Clase de ponto, contem as variaveis para forma um ponto
 Classe Ponto:
 -Variaveis:
     * X
@@ -13,48 +14,69 @@ Classe Ponto:
     * PegarY():
 
 
-
+#Clase para calcular area e perimetro da forma criada
 Classe Forma:
 -Funcao:
     * Area():
     * Perimetro():
 
 
-
+#Classe que usa os pontos e cria um retangulo, e depois usa a classe forma para calcular
 Classe Retangulo(Forma):
 -Variaveis:
     * largura
     * altura
 -Funcao:
-    * Construtor(largura, altura):
+    * Construtor(x1, y1, x2, y2):
     * Area():
     * Perimetro():
 
 
-
+#Classe que usa os pontos e cria um circulo, e depois usa a classe forma para calcular
 Classe Circulo(Forma):
 -Variaveis:
     * centro
     * raio
 -Funcao:
-    * Construtor(centro, raio):
+    * Construtor(x1, y1, x2, y2):
     * Area():
     * Perimetro():
 
-
+#Classe que usa os pontos e cria um triangulo, e depois usa a classe forma para calcular
 Classe Triangulo(Forma):
 -Variaveis:
     * centro
     * raio
 -Funcao:
-    * Construtor(centro, raio):
+    * Construtor(x1, y1, x2, y2):
     * Area():
     * Perimetro():
 
-
+#Classe que obtem os pontos e depois usa para criar os pontos
 -Classe Principal:
-    Mostre(Digite um ponto?)
-    Salve(x)
-    Mostre(Digite um outro ponto?)
-    Salve(y)
+    * Mostre("Quais as coordenadas do primeiro ponto?")
+    * Ler(x1, y1)
+    * Mostre("Quais as coordenadas do segundo ponto?")
+    * Ler(x2, y2)
+
+    * Mostre("A área e Perímetro do Retângulo é:")
+    * retangulo = Retangulo(x1, y1, x2, y2)
+    * area_retangulo = retangulo.Area()
+    * perimetro_retangulo = retangulo.Perimetro()
+    * Mostre("Área:", area_retangulo)
+    * Mostre("Perímetro:", perimetro_retangulo)
+    
+    * Mostre("Área e Perímetro do Círculo:")
+    * circulo = Circulo((x1, y1, x2, y2)
+    * area_circulo = circulo.Area()
+    * perimetro_circulo = circulo.Perimetro()
+    * Mostre("Área:", area_circulo)
+    * Mostre("Perímetro:", perimetro_circulo)
+    
+    * Mostre("Área e Perímetro do Triângulo:")
+    * triangulo = Triangulo((x1, y1, x2, y2)
+    * area_triangulo = triangulo.Area()
+    * perimetro_triangulo = triangulo.Perimetro()
+    * Mostre("Área:", area_triangulo)
+    * Mostre("Perímetro:", perimetro_triangulo)
 '''''''''''''''''''''''''''''''''
