@@ -1,4 +1,4 @@
-ROAD RASH
+"""ROAD RASH
 
 
 Requisitos:
@@ -25,65 +25,61 @@ O jogo possuirá um banco de dados que armazenará as imagens de fundo e das mot
 
 
 Dinâmica:
-Quando a corrida se inicia, as motos estarão posicionadas alinhadas. Iniciará uma contagem regressiva e no 3 todos veiculos começam a andar. Ao longo do percusso aparecem carros nos dois sentidos da via, aparece os demais adversarios que serão controlados pelo proprio computador, alem de predios e plantas fora da pista.O jogador que nao ficar em ate 3 lugar nao aparece no ranking.
+Quando a corrida se inicia, as motos estarão posicionadas alinhadas. Iniciará uma contagem regressiva e no 3 todos veiculos começam a andar. Ao longo do percusso aparecem carros nos dois sentidos da via, aparece os demais adversarios que serão controlados pelo proprio computador, alem de predios e plantas fora da pista.O jogador que nao ficar em ate 3 lugar nao aparece no ranking. Para andar usara a tecla para frente, para ir em direção a esquerda basta usar tecla para a direita, e papra a esquerda a tecla de esquerda
 
 Lista de substantivos e verbos:
 Substantivos:
 
-    Universo - Classe
-    Jogador - Imagem
-    Corrida - Classe
+        Universo - Classe: OK
+    Jogador - Imagem: Classe
+    Corrida - Classe: OK
     Quedas - Verbalizado
-    Jogadores - Classe
-    Cenário - Classe
-    Obstáculos - Atributo do cenário 
-    Carros - Classe
-    Placas de sinalização - Atributo do cenário
-    Curvas - Atributo do cenário
-    Prédios - Atributo do cenário
-    Plantas - Atributo do cenário
-    Policial motoqueiro - Classe
-    Velocidade - Atributo da moto
-    Personagem - Imagem
-    Veículo - Classe
-    Pista - Atributo do cenário
-    Modelos de moto - Classe
-    Ações - Verbos (descrevem as ações que o jogador pode realizar)
-    Braços - Atributo do jogador
-    Pernas - Atributo do jogador
-    Motoqueiro - Classe
-    Tempo - Atributo do jogo (tempo de chegada)
-    Chegada - Atributo do jogo
-    Motos - Classe
-    Esportiva - Atributo da moto
-    Custom - Atributo da moto
-    Scooter - Atributo da moto
-    Rapidez - Atributo da moto
-    Aceleração - Atributo da moto
-    Flexibilidade - Atributo da moto
-    Curvas - Atributo do cenário
+    Jogadores - Classe: OK
+    Cenário - Classe: OK
+    Obstáculos - Atributo do cenário: OK
+    Carros - Classe: OK
+    Placas de sinalização - Atributo do cenário: OK
+    Curvas - Atributo do cenário: OK
+    Prédios - Atributo do cenário: OK
+    Plantas - Atributo do cenário: OK
+    Policial motoqueiro - Classe: OK
+    Velocidade - Atributo da moto: OK
+    Personagem - Imagem: Classe
+    Veículo - Classe: OK
+    Pista - Atributo do cenário: OK
+    Modelos de moto - Classe: OK
+    Ações - Verbos (descrevem as ações que o jogador pode realizar): OK
+    Braços - Atributo do jogador: OK
+    Pernas - Atributo do jogador: OK
+    Motoqueiro - Classe: OK
+    Tempo - Atributo do jogo (tempo de chegada): OK
+    Chegada - Atributo do jogo: OK
+    Motos - Classe: OK
+    Esportiva - Atributo da moto: OK
+    Custom - Atributo da moto: OK
+    Scooter - Atributo da moto: OK
+    Rapidez - Atributo da moto: OK
+    Aceleração - Atributo da moto: OK
+    Flexibilidade - Atributo da moto: OK
+   
 
+Verbos:
 
- Verbos:
-
-    Realizar
-    Correr
-    Pilotar
-    Desbloquear
-    Iniciar
-    Ficar
-    Sofrer
-    Cair
-    Levantar
-    Mover
-    Dar socos
-    Dar chutes
-    Acelerar
-    Permanecer
-    Vençer
-    Chegar
-    Controlar   
-
+    Realizar: OK
+    Correr: OK
+    Pilotar: OK
+    Iniciar: OK
+    Sofrer: OK
+    Cair: OK
+    Levantar: OK
+    Mover: OK
+    Dar socos: OK
+    Dar chutes: OK
+    Acelerar: OK
+    Permanecer: 
+    Vençer: 
+    Chegar: OK
+    Controlar: OK
 Detalhamento de requisitos e identificação de Classes:
 
 Viewers
@@ -95,3 +91,4 @@ Models
 Diagrama de Classes
 
 Tabela de Construtores
+"""
